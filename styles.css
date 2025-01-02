@@ -1,0 +1,23 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+select, input {
+  transition: border-color 0.3s ease;
+}
+
+select:focus, input:focus {
+  border-color: #3b82f6;
+}
